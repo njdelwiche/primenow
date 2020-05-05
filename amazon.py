@@ -4,6 +4,7 @@ import time
 from bs4 import BeautifulSoup
 import smtplib, ssl
 import sys
+import getpass
 
 print(f"Email: {sys.argv[1]}")
 password = getpass.getpass()
