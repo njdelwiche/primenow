@@ -30,6 +30,7 @@ def find_slot():
             if "Unavailable" not in item.text:
                 email()
                 return True
+        # Slow down while loop
         time.sleep(5)
 
 def email(sender, password):
